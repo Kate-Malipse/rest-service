@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees>
+	<employee>
+		<id>1</id>
+		<firstName>Petr</firstName>
+		<lastName>Petrov</lastName>
+		<dateOfBirth>12.09.1989</dateOfBirth>
+	</employee>
+	<employee>
+		<id>2</id>
+		<firstName>Semen</firstName>
+		<lastName>Semenov</lastName>
+		<dateOfBirth>14.05.1945</dateOfBirth>
+	</employee>
+	<employee>
+		<id>3</id>
+		<firstName>Nikolay</firstName>
+		<lastName>Nikolaev</lastName>
+		<dateOfBirth>06.02.1990</dateOfBirth>
+	</employee>
+	<employee>
+		<id>4</id>
+		<firstName>Dmitry</firstName>
+		<lastName>Dmitriev</lastName>
+		<dateOfBirth>24.12.1987</dateOfBirth>
+	</employee>
+</employees>  
