@@ -14,7 +14,8 @@ public class Controller {
 
     @RequestMapping("/tagbody")
     public String output(@RequestParam(value = "name", required = false, defaultValue = "null") String name) {
-        Output result = new Output(name);
+        XMLReader result = new XMLReader();
+        //вывод в браузер найденых тегов
         String out = template + "<br/>" + "<br/>" + result.getContent(name);
         return out;
     }
